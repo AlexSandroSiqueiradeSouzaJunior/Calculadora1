@@ -1,6 +1,37 @@
 body {
     background-color: pink;
+    text-align: center;
+}
+
+input[type="text"],
+
+textarea{
+    width: 250px;
+    height: 30px;
+}
+input[type="submit"],
+
+textarea{
+    width: 250px;
+    height: 30px;
+    color: pink;
+    border-color: black;
+    background-color: rgb(0, 0, 42);
+}
+#Amigue{
+    text-align: center;
+font-size: 30px;
+font-style:italic;
+font-family: sans-serif;
+text-decoration: underline;
+color: rgb(52, 0, 134);
 }
 #imagem{
-   
+    border-style: double;
+    border-width: 20px;
+    border-color: black;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin-left: 610px;
 }
