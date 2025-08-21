@@ -29,9 +29,10 @@ color: rgb(52, 0, 134);
 #imagem{
     border-style: double;
     border-width: 20px;
-    border-color: black;
+    border-color: rgb(247, 24, 4);
     height: 250px;
     width: 250px;
     text-align: center;
     margin-left: 610px;
 }
+
