@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: rgb(2, 2, 96);
+}
+#Culadora{
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px ;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(255, 255, 255);
+   
+}
+input::placeholder {
+    font-style: italic;
+    color: black;
+}
+#n1{
+    background-color: rgb(8, 205, 245);
+    background: linear-gradient(rgb(8, 78, 255), rgb(3, 255, 91));
+}
+#n2{
+    background-color: rgb(8, 205, 245);
+    background: linear-gradient(rgb(8, 78, 255), rgb(3, 255, 91));
+
+}
+#somar{
+    color: rgb(0, 0, 0);
+    background-color: rgb(8, 205, 245);
+    background: linear-gradient(rgb(3, 255, 91), rgb(8, 78, 255));
+}
+#subtrair{
+    color: black;
+    background-color: rgb(8, 205, 245);
+    background: linear-gradient(rgb(3, 255, 91), rgb(8, 78, 255));
+}
+#multiplicar{
+    color: black;
+    background-color: rgb(8, 205, 245);
+    background: linear-gradient(rgb(3, 255, 91), rgb(8, 78, 255));
+}
+#dividir{
+    color: black;
+    background-color: rgb(8, 205, 245);
+    background: linear-gradient(rgb(3, 255, 91), rgb(8, 78, 255));
+}
+#Resultado{
+    color : rgb(0, 0, 0);
+    border-style:inherit;
+border-radius: 50px;
+}
+    
