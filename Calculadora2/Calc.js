@@ -1,9 +1,6 @@
 function somar (n1,n2){
     return n1 + n2
-    //OBS: Pode-se declarar as variaveis n1, n2 e resultados aqui, utilizando o document.getElementByid.
-    //Depois, dentro do function, aplicar os códigos let numero1(2) = n1(2).value.trim()
-    // let resultado = numero1 (+,-,/,*) numero2
-    //resultados.innerHTML = ('Resultado', resultado)
+
 };
     document.getElementById('somar').onclick = function(){
         let n1 = Number(document.getElementById ('n1').value.trim())
@@ -50,5 +47,6 @@ function somar (n1,n2){
 
 
     }
+
 
 
