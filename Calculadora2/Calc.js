@@ -10,6 +10,8 @@ function somar (n1,n2){
         let n2 = Number(document.getElementById ('n2').value.trim())
 
         document.getElementById ('Resultado').innerHTML =somar(n1,n2)
+        n1.value=""
+        n2.value=""
     }
     function subtrair (n1,n2){
         return n1 - n2
@@ -19,6 +21,9 @@ function somar (n1,n2){
         let n2 = Number(document.getElementById ('n2').value.trim())
 
         document.getElementById ('Resultado').innerHTML =subtrair(n1,n2)
+        n1.value=""
+        n2.value=""
+
     }
     function multiplicar (n1,n2){
         return n1 * n2
@@ -28,6 +33,9 @@ function somar (n1,n2){
         let n2 = Number(document.getElementById ('n2').value.trim())
 
         document.getElementById ('Resultado').innerHTML =multiplicar(n1,n2)
+        n1.value=""
+        n2.value=""
+
     }
     function dividir (n1,n2){
         return n1 / n2
@@ -37,6 +45,10 @@ function somar (n1,n2){
         let n2 = Number(document.getElementById ('n2').value.trim())
 
         document.getElementById ('Resultado').innerHTML =dividir(n1,n2)
+        n1.value=""
+        n2.value=""
+
 
     }
+
 
